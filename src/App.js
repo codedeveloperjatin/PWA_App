@@ -25,6 +25,7 @@ const App = () => {
                 onChange={(e) => setQuery(e.target.value)}
                 onKeyPress={search}
             />
+            {/* weather using state hook (useState.) in this div we will update the city and temp with the weather information */}
             {weather.main && (
                 <div className="city">
                     <h2 className="city-name">
