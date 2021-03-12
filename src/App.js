@@ -13,6 +13,7 @@ const App = () => {
             setWeather(data);
             setQuery('');
         }
+        // this is just an update to the comment section and nothing else.
     }
 
     return (
