@@ -1,4 +1,5 @@
 import axios from 'axios';
+import React from 'react';
 
 
 const URL = "https://api.openweathermap.org/data/2.5/weather";
